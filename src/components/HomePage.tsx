@@ -38,7 +38,7 @@ const PRODUCTS: Product[] = [
     icon: Circle,
     gradient: 'linear-gradient(135deg, #1c2e3d 0%, #2a4255 40%, #1a3040 100%)',
     accent: '#4a90d9',
-    grades: ['304 / 304L', '316 / 316L', '430', '201', '309S', '310S'],
+    grades: ['304 / 304L', '316 / 316L', '439', '441', '410', 'Duplex 2205', 'Super Duplex'],
     image: 'https://images.pexels.com/photos/32845682/pexels-photo-32845682.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS: Product[] = [
     icon: Layers,
     gradient: 'linear-gradient(135deg, #2a2a2a 0%, #3d3d3d 40%, #252525 100%)',
     accent: '#c0c0c0',
-    grades: ['304 / 304L', '316 / 316L', '430', '201', '321', '347'],
+    grades: ['304 / 304L', '316 / 316L', '439', '441', '410', 'Duplex 2205', 'Super Duplex'],
     image: 'https://images.pexels.com/photos/32845674/pexels-photo-32845674.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
@@ -56,7 +56,7 @@ const PRODUCTS: Product[] = [
     icon: BarChart2,
     gradient: 'linear-gradient(135deg, #1a2535 0%, #253548 40%, #1a2030 100%)',
     accent: '#d4af37',
-    grades: ['304 / 304L', '316 / 316L', '410', '416', '420', '431'],
+    grades: ['304 / 304L', '316 / 316L'],
     image: 'https://images.pexels.com/photos/19825178/pexels-photo-19825178.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
@@ -336,20 +336,20 @@ function IndonesiaSection() {
               <MapPin size={11} /> Indonesia Operations
             </div>
             <h2 className="font-black text-3xl md:text-4xl tracking-tight mb-4" style={{ color: '#f0f4f8' }}>
-              Strong Presence in{' '}
+              Manufacturing in{' '}
               <span style={{
                 background: 'linear-gradient(135deg, #d4af37, #f0d060)',
                 WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text',
               }}>Indonesia</span>
             </h2>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'rgba(192,200,212,0.7)' }}>
-              Our Jakarta-based sales representative provides on-the-ground support to Indonesian manufacturers, fabricators, and distributors. Indonesia is one of our fastest-growing markets, with growing demand across construction, automotive, food processing, and petrochemical sectors.
+              We have a factory operating under <span className="text-white font-semibold">PT Expertinox Success Asia</span>, located in <span className="text-white font-semibold">Surabaya, Indonesia</span>, utilized as a polishing facility for <span className="text-white font-semibold">No. 4</span> and <span className="text-white font-semibold">Scotch-Brite</span> finishes.
             </p>
             <ul className="space-y-3 mb-6">
               {[
-                'Dedicated local sales representative in Jakarta',
-                'Deep knowledge of Indonesian import regulations and certifications',
-                'Fast turnaround on quotes and documentation',
+                'Factory under PT Expertinox Success Asia in Surabaya',
+                'Specialised polishing facility for No. 4 linear brushed finish',
+                'Scotch-Brite abrasive finish processing capability',
                 'Competitive pricing with flexible payment terms for Indonesian clients',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2.5">

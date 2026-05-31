@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Send, CheckCircle2, Mail, MapPin, Phone } from 'lucide-react';
+import { Send, CheckCircle2, Mail, MapPin, Phone, Printer } from 'lucide-react';
 
 type FormData = {
   name: string;
@@ -74,9 +74,10 @@ export default function Contact() {
 
             <div className="space-y-5 mb-10">
               {[
-                { icon: MapPin, label: 'Headquarters', value: '60 Paya Lebar Road, Unit 04-15, Paya Lebar Square, Singapore – 409051' },
-                { icon: Phone, label: 'Phone', value: '+65 6904 9541', href: 'tel:+6569049541' },
-                { icon: Mail, label: 'Email', value: 'info@expertinox.com', href: 'mailto:info@expertinox.com' },
+                { icon: MapPin,   label: 'Headquarters', value: '60 Paya Lebar Road, Unit 04-15, Paya Lebar Square, Singapore – 409051' },
+                { icon: Phone,   label: 'Phone', value: '+65 6904 9541', href: 'tel:+6569049541' },
+                { icon: Printer, label: 'Fax',   value: '+65 6722 0740' },
+                { icon: Mail,    label: 'Email', value: 'info@expertinox.com', href: 'mailto:info@expertinox.com' },
               ].map(({ icon: Icon, label, value, href }) => (
                 <div key={label} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
@@ -100,7 +101,7 @@ export default function Contact() {
               <div className="text-2xl">🇸🇬</div>
               <div>
                 <div className="font-bold text-white text-sm">Singapore Registered</div>
-                <div className="text-white/45 text-xs">UEN: 201827423C · Est. 2018</div>
+                <div className="text-white/45 text-xs">UEN: 201835835W · Est. 2018</div>
               </div>
             </div>
           </div>

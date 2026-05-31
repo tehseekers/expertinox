@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Globe, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Globe, Linkedin, Twitter, Printer } from 'lucide-react';
 
 const products = ['Stainless Steel Coils', 'Stainless Steel Sheets', 'Stainless Steel Bars', 'Stainless Steel Pipes'];
 const markets = ['India', 'Indonesia', 'Philippines', 'Thailand', 'UAE', 'Saudi Arabia', 'Malaysia', 'Vietnam', 'Australia', 'South Korea', 'Turkey', 'Brazil', 'USA', 'Kenya', 'Kuwait', 'Bangladesh'];
@@ -26,7 +26,7 @@ export default function Footer() {
               Premium stainless steel trading, connecting mills and manufacturers across 30+ countries with reliability at every step.
             </p>
             <div className="text-white/30 text-xs mb-5 space-y-1">
-              <div>UEN: 201827423C</div>
+              <div>UEN: 201835835W</div>
               <div>Singapore-registered · Est. 2018</div>
             </div>
             <div className="flex gap-3">
@@ -75,16 +75,20 @@ export default function Footer() {
             <h4 className="font-bold text-white text-sm tracking-widest uppercase mb-5">Contact</h4>
             <div className="space-y-4">
               {[
-                { icon: MapPin, text: '60 Paya Lebar Road, Unit 04-15, Paya Lebar Square, Singapore – 409051' },
-                { icon: Phone, text: '+65 6904 9541', href: 'tel:+6569049541' },
-                { icon: Mail,  text: 'info@expertinox.com', href: 'mailto:info@expertinox.com' },
-              ].map(({ icon: Icon, text, href }) => (
+              { icon: MapPin,   text: '60 Paya Lebar Road, Unit 04-15, Paya Lebar Square, Singapore – 409051' },
+                { icon: Phone,   text: '+65 6904 9541', href: 'tel:+6569049541' },
+                { icon: Printer, text: '+65 6722 0740', label: 'Fax' },
+                { icon: Mail,    text: 'info@expertinox.com', href: 'mailto:info@expertinox.com' },
+              ].map(({ icon: Icon, text, href, label }) => (
                 <div key={text} className="flex items-start gap-2.5">
                   <Icon size={13} className="text-brand-teal mt-0.5 flex-shrink-0" />
-                  {href
-                    ? <a href={href} className="text-white/40 hover:text-white text-xs leading-relaxed transition-colors">{text}</a>
-                    : <span className="text-white/40 text-xs leading-relaxed">{text}</span>
-                  }
+                  <span className="text-white/40 text-xs leading-relaxed">
+                    {label && <span className="text-white/25 mr-1">{label}:</span>}
+                    {href
+                      ? <a href={href} className="hover:text-white transition-colors">{text}</a>
+                      : text
+                    }
+                  </span>
                 </div>
               ))}
             </div>
@@ -98,7 +102,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Expertinox Ventures Pte Ltd. All rights reserved.
           </p>
           <p className="text-white/15 text-xs">
-            Singapore · UEN 201827423C
+            Singapore · UEN 201835835W
           </p>
         </div>
       </div>
