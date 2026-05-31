@@ -37,20 +37,18 @@ export default function Navbar() {
               className="h-10 w-auto"
               style={{ mixBlendMode: 'screen', filter: 'brightness(1.1) contrast(1.05)' }}
             />
-            <div className="flex flex-col leading-none h-10 justify-center" style={{ width: 'max-content' }}>
+            <div className="flex flex-col justify-center" style={{ gap: '3px' }}>
               <span
-                className="font-black text-white block w-full"
-                style={{ fontSize: '1.1rem', letterSpacing: '0.08em' }}
+                className="font-black text-white block"
+                style={{ fontSize: '1.05rem', letterSpacing: '0.12em', lineHeight: 1 }}
               >
                 EXPERTINOX
               </span>
               <span
-                className="font-semibold uppercase flex justify-between w-full"
-                style={{ color: '#e8a020', fontSize: '0.52rem' }}
+                className="font-bold uppercase block"
+                style={{ color: '#e8a020', fontSize: '0.6rem', letterSpacing: '0.46em', lineHeight: 1, marginRight: '-0.46em' }}
               >
-                {'RELIABILITY PERSONIFIED'.split('').map((ch, i) =>
-                  ch === ' ' ? <span key={i} className="flex-1" /> : <span key={i}>{ch}</span>
-                )}
+                RELIABILITY PERSONIFIED
               </span>
             </div>
           </a>
