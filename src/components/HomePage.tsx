@@ -336,20 +336,23 @@ function IndonesiaSection() {
               <MapPin size={11} /> Indonesia Operations
             </div>
             <h2 className="font-black text-3xl md:text-4xl tracking-tight mb-4" style={{ color: '#f0f4f8' }}>
-              Manufacturing in{' '}
+              Strong Presence in{' '}
               <span style={{
                 background: 'linear-gradient(135deg, #d4af37, #f0d060)',
                 WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text',
               }}>Indonesia</span>
             </h2>
+            <p className="text-base leading-relaxed mb-4" style={{ color: 'rgba(192,200,212,0.7)' }}>
+              Our Jakarta-based sales representative provides on-the-ground support to Indonesian manufacturers, fabricators, and distributors. Indonesia is one of our fastest-growing markets, with growing demand across construction, automotive, food processing, and petrochemical sectors.
+            </p>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'rgba(192,200,212,0.7)' }}>
-              We have a factory operating under <span className="text-white font-semibold">PT Expertinox Success Asia</span>, located in <span className="text-white font-semibold">Surabaya, Indonesia</span>, utilized as a polishing facility for <span className="text-white font-semibold">No. 4</span> and <span className="text-white font-semibold">Scotch-Brite</span> finishes.
+              We also have a factory operating under <span className="text-white font-semibold">PT Expertinox Success Asia</span>, located in <span className="text-white font-semibold">Surabaya, Indonesia</span>, utilized as a polishing facility for <span className="text-white font-semibold">No. 4</span> and <span className="text-white font-semibold">Scotch-Brite</span> finishes.
             </p>
             <ul className="space-y-3 mb-6">
               {[
-                'Factory under PT Expertinox Success Asia in Surabaya',
-                'Specialised polishing facility for No. 4 linear brushed finish',
-                'Scotch-Brite abrasive finish processing capability',
+                'Dedicated local sales representative in Jakarta',
+                'Deep knowledge of Indonesian import regulations and certifications',
+                'Fast turnaround on quotes and documentation',
                 'Competitive pricing with flexible payment terms for Indonesian clients',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2.5">
