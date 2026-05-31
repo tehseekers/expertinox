@@ -40,7 +40,7 @@ export default function Navbar() {
             <div className="flex flex-col justify-center" style={{ gap: '3px' }}>
               <span
                 className="font-black text-white block"
-                style={{ fontSize: '1.05rem', letterSpacing: '0.12em', lineHeight: 1 }}
+                style={{ fontSize: '1.15rem', letterSpacing: '0.12em', lineHeight: 1 }}
               >
                 EXPERTINOX
               </span>
