@@ -38,7 +38,7 @@ const PRODUCTS: Product[] = [
     icon: Circle,
     gradient: 'linear-gradient(135deg, #1c2e3d 0%, #2a4255 40%, #1a3040 100%)',
     accent: '#4a90d9',
-    grades: ['304 / 304L', '316 / 316L', '439', '441', '410', 'Duplex 2205', 'Super Duplex'],
+    grades: ['304 / 304L', '316 / 316L', '430', '410S', '439', '441', '321', '200 Series', 'Duplex 2205', 'Super Duplex'],
     image: 'https://images.pexels.com/photos/32845682/pexels-photo-32845682.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
@@ -47,7 +47,7 @@ const PRODUCTS: Product[] = [
     icon: Layers,
     gradient: 'linear-gradient(135deg, #2a2a2a 0%, #3d3d3d 40%, #252525 100%)',
     accent: '#c0c0c0',
-    grades: ['304 / 304L', '316 / 316L', '439', '441', '410', 'Duplex 2205', 'Super Duplex'],
+    grades: ['304 / 304L', '316 / 316L', '430', '410S', '439', '441', '321', '200 Series', 'Duplex 2205', 'Super Duplex'],
     image: 'https://images.pexels.com/photos/32845674/pexels-photo-32845674.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
@@ -346,7 +346,7 @@ function IndonesiaSection() {
               Our Jakarta-based sales representative provides on-the-ground support to Indonesian manufacturers, fabricators, and distributors. Indonesia is one of our fastest-growing markets, with growing demand across construction, automotive, food processing, and petrochemical sectors.
             </p>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'rgba(192,200,212,0.7)' }}>
-              We also have a factory operating under <span className="text-white font-semibold">PT Expertinox Success Asia</span>, located in <span className="text-white font-semibold">Surabaya, Indonesia</span>, utilized as a polishing facility for <span className="text-white font-semibold">No. 4</span> and <span className="text-white font-semibold">Scotch-Brite</span> finishes.
+              We also have a factory operating under <span className="text-white font-semibold">PT Expertinox Sukses</span>, located in <span className="text-white font-semibold">Surabaya, Indonesia</span>, utilized as a polishing facility for <span className="text-white font-semibold">No. 4</span> and <span className="text-white font-semibold">Scotch-Brite</span> finishes.
             </p>
             <ul className="space-y-3 mb-6">
               {[
