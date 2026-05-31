@@ -41,7 +41,7 @@ export default function Navbar() {
               <span className="font-black tracking-[0.08em] text-white" style={{ fontSize: '1.1rem', letterSpacing: '0.08em' }}>
                 EXPERTINOX
               </span>
-              <span className="font-semibold tracking-[0.2em] uppercase" style={{ fontSize: '0.7rem', color: '#e8a020', letterSpacing: '0.2em' }}>
+              <span className="font-semibold tracking-[0.2em] uppercase" style={{ fontSize: '0.52rem', color: '#e8a020', letterSpacing: '0.2em' }}>
                 RELIABILITY PERSONIFIED
               </span>
             </div>
