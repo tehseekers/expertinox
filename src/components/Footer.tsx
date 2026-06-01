@@ -17,7 +17,7 @@ export default function Footer() {
           <div>
             <div className="mb-4 -ml-1">
               <img
-                src="/expertinox/Logo.png"
+                src="/Logo.png"
                 alt="Expertinox"
                 className="h-24 w-auto"
               />
