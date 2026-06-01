@@ -32,7 +32,7 @@ export default function Navbar() {
           {/* Logo + Wordmark */}
           <a href="#" className="flex items-center gap-3" aria-label="Expertinox Home">
             <img
-              src="/expertinox/Logo.png"
+              src="/Logo.png"
               alt="Expertinox"
               className="h-10 w-auto"
               style={{ mixBlendMode: 'screen', filter: 'brightness(1.1) contrast(1.05)' }}
