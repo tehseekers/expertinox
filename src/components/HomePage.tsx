@@ -38,7 +38,7 @@ const PRODUCTS: Product[] = [
     icon: Circle,
     gradient: 'linear-gradient(135deg, #1c2e3d 0%, #2a4255 40%, #1a3040 100%)',
     accent: '#4a90d9',
-    grades: ['304 / 304L', '316 / 316L', '430', '410S', '439', '441', '321', '200 Series', 'Duplex 2205', 'Super Duplex'],
+    grades: ['304 / 304L', '316 / 316L', '430', '410S', '439', '441', '321', '200 Series', 'Duplex 2205', 'Super Duplex', 'N1', 'N7'],
     image: 'https://images.pexels.com/photos/32845682/pexels-photo-32845682.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
